@@ -16,7 +16,7 @@ while k<3:
 else:
     print("while loop ended")
 
-    
+
 # for loop 
 for j in range(1,11):
-    print(j*num)
+    print(num,"*",j,"=",j*num)
