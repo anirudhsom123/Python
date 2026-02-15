@@ -1,8 +1,6 @@
 import random
 num=random.randint(1,100)
-
 guess=int(input("Guess number between 1 to 100 : "))
-
 count=0
 
 while(count!=5):
