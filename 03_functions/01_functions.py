@@ -1,5 +1,7 @@
 # rule order of parameters in functions matter (vairables->*args->**kwags)
 # args and kwargs are just for convenience not rule or manditory
+# if there is no return type or return is not provided then function by default return none
+
 # functions
 #functions with docstring
 def is_even(a):
@@ -17,3 +19,4 @@ print(is_even.__doc__) # accessing docstring of any function
 print(is_even(2)) # valid input
 print(is_even(5)) # valid input
 print(is_even("ani")) # invalid input
+
