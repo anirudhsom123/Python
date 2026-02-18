@@ -1,6 +1,6 @@
-
+# rule order of parameters in functions matter (vairables->*args->**kwags)
+# args and kwargs are just for convenience not rule or manditory
 # functions
-
 #functions with docstring
 def is_even(a):
     '''
