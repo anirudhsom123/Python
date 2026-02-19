@@ -6,4 +6,4 @@ def f():
     print("finction f is printed")
 
 f()
-g() # can't call inner function
+# g() # can't call inner function

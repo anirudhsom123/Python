@@ -2,6 +2,11 @@
 # args and kwargs are just for convenience not rule or manditory
 # if there is no return type or return is not provided then function by default return none
 
+# benefits of unsing functions
+# Code Modularity
+# code Readibility
+# code Reusability
+
 # functions
 #functions with docstring
 def is_even(a):
