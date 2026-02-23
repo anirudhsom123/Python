@@ -7,7 +7,7 @@ class Patient(BaseModel):
     email : Optional[EmailStr] = None
     Linkedin_url : Optional[AnyUrl] = None
     married : Annotated[bool,Field(default=False ,description="is marreid or not")]
-    age : int = Field(gt=10,le=100)
+    age : Annotated[int , Field(strict=True,gt=10,le=100)]
   
 # add Patient to DB 
 def add_patient(patient : Patient):
@@ -18,7 +18,7 @@ info={
     'name' : 'anirudh' ,
     'email' : 'anirudh@gmail.com',
    #  'Linkedin_url' :'abc' 
-   'age' : 11
+    'age' : 11
 } 
 
 patient1=Patient(**info)
