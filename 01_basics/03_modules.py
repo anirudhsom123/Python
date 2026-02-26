@@ -1,7 +1,7 @@
 
 # below are the modules offered by python 
 # math module used to perform mathematical operations
-import math
+import math 
 print(math.floor(12.7))
 print(math.factorial(5))
 
@@ -14,6 +14,5 @@ import random
 print(random.randint(1,10))
 
 # datetime module 
-
 import datetime
 print(datetime.datetime.now())

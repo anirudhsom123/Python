@@ -20,8 +20,19 @@ print('' and 'hello') # true and false  answer will be false empty string
 print('hello' and 'world') # true and true will resturn last value i.e world
 print('' or 'hello') # false or true returns true i.e hello
 print('hello' or 'world') # true or true returns 
+print(not 'hello') # not true returns false
 
 
 # loops on Strings
-# membership Operaations
+for i in 'hello':
+    print(i)
+    
+for i in 'delhi':
+    print('pune')
+    
+
+# membership Operators
+print('D' in "Delhi") # true since D is present in delhi
+print('s' not in "delhi") # true since s in not in delhi
+
 
