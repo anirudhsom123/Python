@@ -19,8 +19,8 @@ print('HlEoo wOrld'.swapcase()) # converts capital char to smal char and smal ch
 # some other functions
 # COUNT/FIND/INDEX
 
-print('my name is anirudh'.count('i')) # count for the frequency of the character provided
-print('my name is anirudh'.find('is')) # returns the stating index of the string from where the string we want to find starts
+print('my name is anirudh'.count('i',10,15),"************") # count for the frequency of the character provided
+print('my name is anirudh'.find('is')) # returns the starting index of the string from where the string we want to find starts
 # if the string we are searching is not in the parent string it will return -1
 
 # print('my name is anirudh'.index('x')) # returns the stating index of the string from where the string we want to find starts

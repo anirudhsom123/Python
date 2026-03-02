@@ -10,8 +10,7 @@ print('delhi'!='mumbai') # true
 print('delhi'=='mumbai') # false
 print('delhi'>'mumbai') # false since ascii value of 'm' is greater then 'd'
 print('delhi'<'mumbai') # true since ascii value of 'm' is greater then 'd'
-print('delhi'<='mumba') # true since ascii value of delhi is less then equal to mumba
-
+print('delhi'>='delhiy',"*********") # true since ascii value of delhi is less then equal to mumba
 # Logical Operations
 # empty string false
 # string with some value is true
