@@ -44,6 +44,16 @@ print(l[2][0])
 l=[1,2,3,4,5]
 print(l[::-1])
 
+# NOTE : list can contain objects inside it
+# eg :
+L=[1,type,print,input] # will not show error since list can hold functions as well
+
+
+# Disadvantages of list 
+# slow
+# risky usage
+# eats up memory
+
 
 
 
